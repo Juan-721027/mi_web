@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hoy</title>
+</head>
+<body>
+
+<h1>📆 Hoy es:</h1>
+<p id="fecha"></p>
+
+<a href="index.html">⬅ Volver</a>
+
+<script>
+    let hoy = new Date();
+    document.getElementById("fecha").innerText = hoy.toLocaleDateString();
+</script>
+
+</body>
+</html>

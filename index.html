@@ -1,14 +1,74 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Mi primera web</title>
-</head>
-<body>
-    <h1>Hola mundo 🌎</h1>
-    <p>Mi web ya está online</p>
+    <meta charset="UTF-8">
+    <title>Mi sitio</title>
 
-    <img src="logojf.png" alt="Mi imagen" width="300">
-    
-    <p>Mi logo</p>
+    <style>
+        body {
+            font-family: Arial;
+            text-align: center;
+            background: linear-gradient(to right, #4facfe, #00f2fe);
+            color: white;
+        }
+
+        header {
+            padding: 20px;
+        }
+
+        h1 {
+            margin-bottom: 30px;
+        }
+
+        .boton {
+            display: block;
+            width: 250px;
+            margin: 15px auto;
+            padding: 15px;
+            background-color: white;
+            color: #333;
+            text-decoration: none;
+            border-radius: 10px;
+            font-size: 18px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .boton:hover {
+            background-color: #333;
+            color: white;
+            transform: scale(1.05);
+        }
+
+        img {
+            margin-top: 30px;
+            border-radius: 10px;
+        }
+
+        footer {
+            margin-top: 40px;
+            padding: 10px;
+            background-color: rgba(0,0,0,0.2);
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>📌 Menú principal</h1>
+</header>
+
+<a class="boton" href="calendario.html">📅 Calendario</a>
+<a class="boton" href="hoy.html">📆 ¿Qué día es hoy?</a>
+<a class="boton" href="canales.html">📺 Canales argentinos</a>
+
+<img src="logojf.png" width="250">
+<p>Mi logo</p>
+
+<footer>
+    <p>Prueba | Fecha: 10/04/2026 | Programador</p>
+</footer>
+
 </body>
 </html>
